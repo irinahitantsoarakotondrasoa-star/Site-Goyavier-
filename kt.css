@@ -1,0 +1,30 @@
+@media screen and (max-width:768px){
+
+button{
+    margin:40px;
+    background-color:pink;
+    border-radius:20px;
+}
+
+h1{
+    color:red;
+    margin-left:50px;
+}
+
+body{
+    background-image:url(cath.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+}
+
+table{
+    background-color:white;
+}
+
+}

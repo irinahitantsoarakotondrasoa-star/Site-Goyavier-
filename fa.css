@@ -1,0 +1,107 @@
+/* Style général */
+
+body{
+    background-image:url(mll.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    font-family: Arial, sans-serif;
+}
+
+/* Titres */
+
+h2{
+    color:#2b2eff;
+    margin:20px;
+}
+
+h3{
+    color:red;
+}
+
+h4{
+    color:white;
+}
+
+/* Boutons */
+
+button{
+    background-color:pink;
+    margin:20px;
+    border-radius:10px;
+    padding:10px;
+}
+
+/* Liens */
+
+a{
+    text-decoration:none;
+    color:black;
+}
+
+/* Images */
+
+img{
+    margin-left:30px;
+    border-radius:30px;
+    max-width:100%;
+    height:auto;
+}
+
+/* Fieldset */
+
+fieldset{
+    margin:30px;
+    border-radius:20px;
+    background-image:url(bab.jpg);
+    background-size:cover;
+    padding:10px;
+}
+
+/* Responsive design pour téléphone */
+
+@media screen and (max-width:768px){
+
+body{
+    font-size:14px;
+}
+
+fieldset{
+    margin:20px;
+    display:flex;
+    flex-direction:column;
+}
+
+button{
+    width:90%;
+}
+
+img{
+    margin-left:0;
+}
+.button-row {
+    display: flex;                  /* aligne les boutons sur la même ligne */
+    justify-content: space-between; /* espace égal entre les boutons */
+    margin: 20px 0;
+}
+
+.button-row button {
+    flex: 1;                        /* chaque bouton prend la même largeur */
+    margin: 0 10px;                 /* espace entre les boutons */
+    padding: 10px 0;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ff69b4;
+    color: white;
+    cursor: pointer;
+}
+
+/* Retirer l’espace du premier et dernier bouton pour ne pas dépasser */
+.button-row button:first-child {
+    margin-left: 0;
+}
+.button-row button:last-child {
+    margin-right: 0;
+}
+
+}

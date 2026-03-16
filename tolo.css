@@ -1,0 +1,43 @@
+@media screen and (max-width:768px){
+button{
+    background-color:#ffffff;
+    margin:20px;
+    padding: 0px 20px; /* haut-bas 0px, gauche-droite 20px */
+    font-size: 16px;
+    
+}
+img{
+borde-radius:20px;
+    
+}
+h1{
+    color:brown;
+    margin-left:70px;
+}
+body{
+    background-color:white;
+}
+th{
+    color:#ffb355;
+}
+table{
+    background-color:#ffffea;
+    border-radius:10px;
+}
+fieldset{
+    margin:10px;
+    Background-color:#ffffff;
+    Border-radius:20px;
+}
+h5{
+    Color:black;
+}
+h2{
+    Color:red;
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+        
+} 

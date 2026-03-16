@@ -1,0 +1,20 @@
+@media screen and (max-width: 768px){
+            body{
+                Background-color:grey;
+            }
+            button{
+                margin:30px;
+                Background-color:black;
+                Border-radius:30px;
+            }
+            h2{
+                Color:white;
+                margin-left:50px;
+            }
+            h5{
+                color:white;
+            }
+            h4{
+                Color:red;
+            }
+        }
